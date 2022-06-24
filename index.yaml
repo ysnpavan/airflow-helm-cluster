@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  airflow-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-23T23:14:20.089369-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 69b04ba7868f815ecbe8f01f2adac872d993b232f4aa07c4599ed763134fb61b
+    name: airflow-chart
+    type: application
+    urls:
+    - https://ysnpavan.github.io/airflow-helm-cluster/airflow-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-23T23:14:20.08884-05:00"
