@@ -3,12 +3,67 @@ entries:
   airflow-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-23T23:14:20.089369-05:00"
+    created: "2022-06-23T23:50:00.79557-05:00"
     description: A Helm chart for Kubernetes
-    digest: 69b04ba7868f815ecbe8f01f2adac872d993b232f4aa07c4599ed763134fb61b
+    digest: 112fcdb4e9956bc01b106fb9bd73e2b193df710fbd9b0cf9fe871925fc497caa
     name: airflow-chart
     type: application
     urls:
     - https://ysnpavan.github.io/airflow-helm-cluster/airflow-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-23T23:14:20.08884-05:00"
+  git-sync:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-23T23:50:00.795923-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 0a09e01ab22d9adb86774ce9b6d563228c74888da54339b0f0944075cf2d83e3
+    name: git-sync
+    type: application
+    urls:
+    - https://ysnpavan.github.io/airflow-helm-cluster/git-sync-0.1.0.tgz
+    version: 0.1.0
+  pgbouncer:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-23T23:50:00.796234-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 5f8d6a324b44d9dbfebca4ba30e33c0e596cdb16958c4d4168ece99360200736
+    name: pgbouncer
+    type: application
+    urls:
+    - https://ysnpavan.github.io/airflow-helm-cluster/pgbouncer-0.1.0.tgz
+    version: 0.1.0
+  pgbouncer-exporter:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-23T23:50:00.796499-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 4aff6731bc362ad43d474b56c6ace12a0968f8b6ea4bf2e9c8a8b2c02b597b11
+    name: pgbouncer-exporter
+    type: application
+    urls:
+    - https://ysnpavan.github.io/airflow-helm-cluster/pgbouncer-exporter-0.1.0.tgz
+    version: 0.1.0
+  redis:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-23T23:50:00.79674-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 9e1c5729db205b0ecb0183c14115cbfbe51d7221d1398a57f77eb5ddb9600603
+    name: redis
+    type: application
+    urls:
+    - https://ysnpavan.github.io/airflow-helm-cluster/redis-0.1.0.tgz
+    version: 0.1.0
+  statsd-exporter:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-23T23:50:00.796982-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 1302071b510c56e762fdd5e145a2e7df84d0587be0b17e7f36efcf9dc4298e98
+    name: statsd-exporter
+    type: application
+    urls:
+    - https://ysnpavan.github.io/airflow-helm-cluster/statsd-exporter-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-23T23:50:00.795093-05:00"
